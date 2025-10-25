@@ -1,0 +1,136 @@
+.centered-content {
+  max-width: 800px;     /* ปรับความกว้างตามที่ต้องการ */
+  margin: 0 auto;       /* จัดให้อยู่ตรงกลางแนวนอน */
+  padding: 20px;        /* เพิ่มช่องว่างด้านใน */
+  text-align: left;     /* จัดข้อความชิดซ้าย (หรือใช้ center ถ้าต้องการ) */
+}
+
+.indent-paragraph {
+  text-indent: 2em; /* หรือใช้ 1.5em, 30px ตามความเหมาะสม */
+}
+
+h3 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    color: #071626;
+}
+
+.mitr-01 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p {
+  font-family: 'K2D', sans-serif;
+  font-weight: 100;
+}
+
+.img-resize {
+  width: 1550px;       /* ปรับความกว้างตามต้องการ */
+  height: 1000px;       /* รักษาสัดส่วนภาพ */
+}
+
+.box-darkblue {
+  background-color: #cbdbec;
+  color:#cbdbec
+}
+
+.image-01 {
+  position: relative;
+  display: inline-block;
+   background-color: rgba(0, 0, 0, 0.5); /* พื้นหลังโปร่งใส */
+   filter: brightness(50%);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;               /* จัดตำแหน่งแนวตั้ง */
+  left: 50%;              /* จัดตำแหน่งแนวนอน */
+  transform: translate(-50%, 50%); /* จัดให้อยู่ตรงกลางพอดี */
+  color: #ffffff;         /* สีข้อความ */
+  text-align: center;
+  line-height: 1.6;
+
+}
+
+.limelight-regular {
+  font-family: 'Limelight', cursive;
+  font-weight: 400;
+}
+
+.author-logo {
+  width: 120px;              /* ปรับขนาดตามต้องการ */
+  height: 120px;
+  border-radius: 50%;        /* ทำให้เป็นวงกลม */
+  border: 2px solid #000000; /* เส้นขอบสีดำ */
+  object-fit: cover;         /* ป้องกันภาพบิดเบี้ยว */
+  display: block;
+    margin: 0 auto;             /* จัดให้อยู่ตรงกลางแนวนอน */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+ .text-zoom-in {
+  display: inline-block;
+  animation: zoomInText 0.6s ease-in-out forwards;
+}
+
+@keyframes zoomInText {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.text-bold-right {
+  text-align: right;
+  font-weight: bold;
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.responsive-text {
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  line-height: 1.6;
+}
+
+.centered-text {
+  position: relative;         /* ใช้สำหรับการปรับตำแหน่ง */
+  text-align: center;         /* จัดข้อความให้อยู่ตรงกลางแนวนอน */
+  top: 0;                     /* ปรับตำแหน่งแนวตั้ง */
+  left: 0;                    /* ปรับตำแหน่งแนวนอน */
+  transform: translate(0, 0); /* ปรับตำแหน่งเพิ่มเติมแบบละเอียด */
+}
+
+.The-Milly {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  color: #071626;
+}
+
+.circle-image {
+  width: 150px;
+  /* ปรับขนาดให้เล็กลง */
+  height: 150px;
+  /* กำหนดความสูงเท่ากับความกว้าง */
+  border-radius: 50%;
+  /* ทำให้เป็นวงกลม */
+  object-fit: cover;
+  /* ครอบภาพให้พอดีในกรอบวงกลม */
+  border: 2px solid #ccc;
+  /* เส้นขอบบางๆ เพิ่มความสวยงาม */
+}
